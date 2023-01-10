@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body {
+   font-family: 'Source Sans Pro', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.topo{
+    width:100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d5d5d5;
+    position: fixed;
+    top:0;
+    height: 60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+.link-home{
+    font-size: 25px;
+    color: #000;
+    font-weight:normal;
+    text-decoration: none;
+}
+
+span{
+    color: rgb(5, 109, 168);
+}
+
+.link-topo{
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.link{
+    margin: 0 30px;
+}
+
+.background-titulo{
+    background-image: url('../assets/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+  color: #fff;
+  font-size: 28px;
+  background-color: #0a9077b3;
+  border: 1px solid;
+  padding: 0 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.cntd-principal{
+    text-align: center;
+    margin: 15vh auto 15vh auto;
+}
+.cntd-principal h2{
+    font-size: 40px;
+    font-weight: normal;
+
+}
+
+.cntd-principal p{
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.quartos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.quartos-desc {
+    margin: 0 15px 30px 15px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00836a;
+    text-decoration: none;
+    color: #3d3d3d;
+
+  }
+
+.quartos-desc img{
+    min-width: 350px;
+    min-height: 250px;
+    width: 28vw;
+    height: 24vh;
+
+}
+
+.quartos-desc a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+    color: #333;
+}
+.quartos-desc a p{
+    text-align: center;
+}
+
+iframe{
+    margin-top: 20px;
+}
+
+.info img{
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.informacoes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+}
+.info{
+    width: 40%;
+    margin: 0 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc{
+    align-self: baseline;
+    flex: 1 1 auto;
+    text-align: justify;
+}
+
+.rodape-copyright {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #3b7863;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+  }
+  
+  .rodape {
+    background-color: #49997d;
+    color:#fff;
+
+  }
+  
+  .rodape h4 {
+    font-size: 19px;
+  }
+  
+  .cntd-rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0 4vw;
+  }
+  
+  .rodape-info {
+    
+    display: flex;
+    align-items: center;
+  }
+  
+  .rodape-link{
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .rodape-icone {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .rodape-info a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .rodape-info p{
+    font-size: 13px;
+  }
+
+  a:hover{
+    transition: 0.5s;
+    padding: 4px 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.459);
+  }
